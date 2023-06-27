@@ -1,0 +1,22 @@
+POST http://localhost:3000/api/fashion
+Content-Type: application/json
+
+{
+    "eMail": "mail@gmail.com",
+    "password": "ASDgdsf55 "
+}
+
+###
+
+POST http://localhost:3000/api/LogIn
+Content-Type: application/json
+
+{
+    "name": "mail@gmail.com",
+    "password": "ASDgdsf55 "
+}
+
+
+###
+GET http://localhost:3000/api/fashionCP
+Authorization:bearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNjg2MTQ3MDgxLCJleHAiOjE2ODYzMTk4ODF9.XnVFoJ3x4EaZEaRiaIcYelR7jN1P4jf5MmvANkz3F_A

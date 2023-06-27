@@ -1,0 +1,14 @@
+.loginForm{
+    background-color: rgb(236, 236, 237);
+    border-radius: 10px;
+    box-shadow: 0 5px 35px rgb(187,187,187);
+    height: fit-content;
+    width: 500px;
+    padding: 2 rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
